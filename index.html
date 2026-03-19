@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurtful - Sara Truffi Portfolio</title>
+
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        background: #fcfaf5;
+        font-family: Arial, sans-serif;
+        color: #5a3b4d;
+      }
+
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      nav ul { list-style: none; }
+      nav ul li {
+        display: inline-block;
+        position: relative;
+        margin-right: 20px;
+      }
+
+      nav a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #d14f9c;
+        padding: 6px 10px;
+        display: block;
+      }
+
+      nav a:hover { color: #ffb6db; }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .dropdown:hover .dropdown-content { display: block; }
+
+      .hero {
+        text-align: center;
+        padding: 60px 0 20px;
+      }
+
+      .hero h1 {
+        font-size: 3em;
+        color: #d14f9c;
+        margin-bottom: 15px;
+      }
+
+      .hero p {
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.7;
+      }
+
+      .meta-row {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+      }
+
+      .meta-row span {
+        background: #fff0f7;
+        padding: 8px 14px;
+        border-radius: 30px;
+        font-size: 0.8em;
+        color: #d14f9c;
+      }
+
+      .video-wrap {
+        max-width: 900px;
+        margin: 40px auto;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border: none;
+      }
+
+      .section {
+        margin-top: 80px;
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .section h2 {
+        color: #d14f9c;
+        margin-bottom: 10px;
+      }
+
+      .divider {
+        width: 40px;
+        height: 2px;
+        background: #d14f9c;
+        margin-bottom: 20px;
+      }
+
+      .section p {
+        line-height: 1.8;
+        margin-bottom: 15px;
+      }
+
+      footer {
+        background: #d14f9c;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+
+          <li class="dropdown">
+            <a href="work.index">Projects</a>
+            <ul class="dropdown-content">
+              <li><a href="videography.html">Videography</a></li>
+              <li><a href="branding.html">Branding</a></li>
+              <li><a href="web-app.html">Web and App</a></li>
+              <li><a href="graphic-design.html">Graphic Design</a></li>
+            </ul>
+          </li>
+
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="contactme.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- HERO -->
+    <div class="container">
+      <section class="hero">
+        <h1>Hurtful</h1>
+        <p>
+          A conceptual video exploring the emotion of hurt through symbolism,
+          repetition, and visual breakdown.
+        </p>
+
+        <div class="meta-row">
+          <span>Concept Film</span>
+          <span>Visual Storytelling</span>
+          <span>Symbolism</span>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIDEO -->
+    <div class="video-wrap">
+      <iframe src="https://www.youtube.com/embed/tvKXRcJorEA" allowfullscreen></iframe>
+    </div>
+
+    <!-- OVERVIEW -->
+    <div class="section">
+      <h2>Concept</h2>
+      <div class="divider"></div>
+
+      <p>
+        This project explores the emotion "hurtful" through the visual metaphor of a clock
+        slowly breaking apart. The clock represents time slipping away and the feeling of
+        being stuck in a repeating emotional cycle. :contentReference[oaicite:1]{index=1}
+      </p>
+
+      <p>
+        As the video progresses, the clock deteriorates, symbolizing loss, vulnerability,
+        and emotional damage. By the end, the breakdown leads to a shift, representing
+        release and the possibility of moving forward. :contentReference[oaicite:2]{index=2}
+      </p>
+    </div>
+
+    <!-- DESIGN -->
+    <div class="section">
+      <h2>Visual Approach</h2>
+      <div class="divider"></div>
+
+      <p>
+        The project uses strong contrast to communicate emotion. Red is used throughout
+        the clock and character to symbolize pain and urgency, contrasted against white
+        and darker tones to create a sense of vulnerability and isolation. :contentReference[oaicite:3]{index=3}
+      </p>
+
+      <p>
+        The exposed gears and cogs represent internal fragility, while broken glass and
+        sharp textures emphasize the emotional intensity of the piece. :contentReference[oaicite:4]{index=4}
+      </p>
+    </div>
+
+    <!-- STORY -->
+    <div class="section">
+      <h2>Narrative Elements</h2>
+      <div class="divider"></div>
+
+      <p>
+        The main character mirrors the clock by wearing red, showing they are trapped
+        within the same cycle. Four additional figures represent divisions of the clock,
+        reinforcing isolation and emotional impact.
+      </p>
+
+      <p>
+        The final shift to blue symbolizes breaking free from the cycle and moving beyond
+        the emotion of hurt. :contentReference[oaicite:5]{index=5}
+      </p>
+    </div>
+
+    <!-- OUTCOME -->
+    <div class="section">
+      <h2>Outcome</h2>
+      <div class="divider"></div>
+
+      <p>
+        This project demonstrates my ability to communicate complex emotion through visual
+        storytelling, symbolism, and design principles like contrast and texture.
+      </p>
+
+      <p>
+        It reflects the type of creative work I want to continue exploring—projects that
+        combine narrative, visual design, and emotional impact.
+      </p>
+    </div>
+
+    <footer>@ 2026 Sara Truffi - All Rights Reserved</footer>
+
+  </body>
+</html> 
